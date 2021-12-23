@@ -1,3 +1,20 @@
+**Description：**
+ML.py:
+Machine learning module using pandas package. Import all the data from csv files, including data price and all the factors. Then uses three machine learning models to predict the trend of stock price in the next month. The accuracy figure is put in ./MR result fig, and the prediction is put in ./MR result data. 
+ 
+All the stocks.py:
+Backtesting Module using pandas package. Using three strategies that was designed by us to generate buy/sell signals. Then use backtesting algorithm to evaluate all the strategies.
+ 
+Backtest2.py:
+Help functions for backtesting.
+ 
+Price_predict.ipynb:
+Machine learning module using pyspark. Import all the data from csv files, including data price and all the factors. Then uses three machine learning models to predict the trend of stock price in the next month. Files are put in ./result2. 
+ 
+Backtest_spark.ipynb:
+Backtesting module using pyspark. Using signals and price of stocks to do backtesting.
+
+**run:**
 There are two parts of the code
 The first one is constructed with python, and the second one is constructed with pyspark.
 
