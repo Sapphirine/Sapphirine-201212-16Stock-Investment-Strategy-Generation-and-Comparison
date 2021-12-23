@@ -23,7 +23,7 @@ Backtesting module using pyspark. Using signals and price of stocks to do backte
 There are two parts of the code
 The first one is constructed with python, and the second one is constructed with pyspark.
 
-Download df_all_close_price.csv file from https://drive.google.com/file/d/1qA3x8_9tG6mnF73W6BDENmRmsPbtmAXE/view?usp=sharing
+Download df_all_close_price.csv file from https://drive.google.com/file/d/1qA3x8_9tG6mnF73W6BDENmRmsPbtmAXE/view?usp=sharing(We have shared it with all people using lionmail)
 and put it in "data" folder and "MR raw data" folder.
 
 To run the first part, run ML.py first, it will do the prediction.
